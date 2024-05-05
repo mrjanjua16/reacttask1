@@ -1,10 +1,28 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './routes/Home.js';
+import Speakers from './routes/Speakers.js';
+import Pages from './routes/Pages.js';
+import Schedule from './routes/Schedule.js';
+import Sponsors from './routes/Sponsors.js';
+import News from './routes/News.js';
+import Contact from './routes/Contact.js';
+import Buyticket from './routes/Buyticket.js';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/Speakers' element={<Speakers />}/>
+        <Route path='/Pages' element={<Pages />}/>
+        <Route path='/Schedule' element={<Schedule />}/>
+        <Route path='/Sponsors' element={<Sponsors />}/>
+        <Route path='/News' element={<News />}/>
+        <Route path='/Contact' element={<Contact />}/>
+        <Route path='/Buyticket' element={<Buyticket />}/>
+      </Routes>
     </div>
   );
 }

@@ -6,37 +6,37 @@ export const MenuItem = [
     },
     {
         title: "Speakers",
-        url: "/",
+        url: "/Speakers",
         cName: "nav-links"
     },
     {
         title: "Pages ^",
-        url: "/",
+        url: "/Pages",
         cName: "nav-links"
     },
     {
         title: "Schedule",
-        url: "/",
+        url: "/Schedule",
         cName: "nav-links"
     },
     {
         title: "Sponsors",
-        url: "/",
+        url: "/Sponsors",
         cName: "nav-links"
     },
     {
         title: "News ^",
-        url: "/",
+        url: "/News",
         cName: "nav-links"
     },
     {
         title: "Contact",
-        url: "/",
+        url: "/Contact",
         cName: "nav-links"
     },
     {
         title: "BUY TICKET",
-        url: "/",
+        url: "/Buyticket",
         cName: "nav-links-ticket"
     }
 ]
