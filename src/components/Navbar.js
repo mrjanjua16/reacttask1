@@ -18,8 +18,8 @@ class Navbar extends Component
         return (
             <nav className="NavbarItems">
                 
-                <a className="nev-logo" href="/">
-                    <img src={logo} alt="logo" />
+                <a href="/">
+                    <img className="nev-logo" src={logo} alt="logo" />
                 </a>
                 
                 <div className="menu-icons">

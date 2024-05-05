@@ -1,16 +1,20 @@
 .NavbarItems{
     display: flex;
-    justify-content: space-between;
-    width: 95%;
+    flex-direction: row;
+    justify-content: start;
+    width: 55%;
     height: 88px;
+    white-space: nowrap;
 }
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(10, auto);
+    grid-gap: 1px;
     list-style: none;
     align-items: center;
+    white-space: nowrap;
+    flex-direction: row;
 }
 
 .nav-links {
@@ -55,10 +59,19 @@
     font-weight: 600;
     padding: 0.5rem 1rem;
     white-space: nowrap;
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Optional: Center content vertically (if needed) */
+}
+
+.navbar-logo img {
+    /* Optional: Set image dimensions if needed */
+    width: 100px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
 }
 
 button{
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     white-space: nowrap;
     font-size: 1rem;
     font-weight: 600;
@@ -66,6 +79,7 @@ button{
     cursor: pointer;
     background-color: #ffffff;
     transition: 0.3s ease-in-out;
+    width: 180px;
 }
 
 button:hover {
@@ -75,7 +89,7 @@ button:hover {
 
 .nev-logo {
     display: inline-block;
-    padding-top: 0.3125rem;
+    padding-top: 1.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;

@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './routes/Home.js';
+import Home from './routes/Home1.js';
+import Home2 from './routes/Home2.js';
 import Speakers from './routes/Speakers.js';
 import Pages from './routes/Pages.js';
 import Schedule from './routes/Schedule.js';
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/Home2' element={<Home2 />}/>
         <Route path='/Speakers' element={<Speakers />}/>
         <Route path='/Pages' element={<Pages />}/>
         <Route path='/Schedule' element={<Schedule />}/>
