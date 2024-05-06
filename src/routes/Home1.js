@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import homepage1 from '../components/images/homepage-one-banner.jpg'
 import '../routes/Home1style.css'
 import About from "../components/About";
+import Speaker from "../components/Speakers";
 
 function Home()
 {
@@ -21,6 +22,7 @@ function Home()
                 btnClass="show"
             />
             <About />
+            <Speaker />
         </>
     )
 }

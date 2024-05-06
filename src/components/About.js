@@ -27,15 +27,14 @@ export default function About(){
 						</p>
                         <ul className='list-inline'>
                             <li className='list-inline-item'></li>
-                            <a href='#' className='btn-main-md1'>Buy ticket</a>
+                            <button className='btn-main-md1'>Buy ticket</button>
                             <li className='list-inline-item'>
-                                <a href='#' className='btn-transparent-md1'>Read more</a>
+                                <button className='btn-main-md'>Read more</button>
                             </li>
                         </ul>
 
                     </div>
                 </div>
-
             </div>
         </section>
         </>
