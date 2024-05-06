@@ -16,6 +16,11 @@ section {
 .bg-banner-one {
     background-size: cover;
     background-position: center center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (min-width: 768px) {
@@ -32,10 +37,12 @@ section {
 
 .container {
     width: 100%;
-    padding-right: 15px;
+    padding-right: 150px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    position: absolute;
+    top: 4%;
 }
 
 .row {
@@ -52,16 +59,36 @@ section {
     padding-left: 15px;
 }
 
-.banner .block {
+.block {
     position: relative;
     z-index: 10;
 }
 
-.banner .block h1 {
+.countdown {
+    color: #6d6d6d;
+}
+
+h1 {
     text-transform: uppercase;
     font-size: 5.5rem;
     color: #ff6600;
     font-weight: 500;
     margin-bottom: 5px;
     text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 4.625rem;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+h6 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
 }

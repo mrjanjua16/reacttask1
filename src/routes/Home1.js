@@ -1,7 +1,8 @@
 import Hero from "../components/homeHero";
 import Navbar from "../components/Navbar";
 import homepage1 from '../components/images/homepage-one-banner.jpg'
-
+import '../routes/Home1style.css'
+import About from "../components/About";
 
 function Home()
 {
@@ -19,6 +20,7 @@ function Home()
                 url="/"
                 btnClass="show"
             />
+            <About />
         </>
     )
 }

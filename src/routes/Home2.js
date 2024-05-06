@@ -1,7 +1,7 @@
 import Hero from "../components/homeHero";
 import Navbar from "../components/Navbar";
 import homepage2 from '../components/images/banner-bg-two.jpg'
-
+import '../routes/Home2style.css'
 
 function Home2()
 {
