@@ -6,6 +6,42 @@ section {
     .banner {
         padding: 100px 0;
     }
+
+    .bg-banner-one {
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+        line-height: 4.5rem;
+    }
+
+    .bg-banner-one {
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+        line-height: 4.5rem;
+    }
 }
 
 .banner {
@@ -23,18 +59,6 @@ section {
     object-fit: cover;
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
 .container {
     width: 100%;
     padding-right: 150px;
@@ -43,6 +67,7 @@ section {
     margin-left: auto;
     position: absolute;
     top: 4%;
+    line-height: 4.5rem;
 }
 
 .row {
